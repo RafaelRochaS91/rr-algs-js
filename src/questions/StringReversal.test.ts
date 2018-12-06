@@ -14,7 +14,11 @@ describe('StringReversal interview question tests on original value', () => {
 
   it('MethodTwo', () => {
     const methodTwoResult = StringReversalClass.methodTwo();
-    expect(methodTwoResult).toEqual(undefined);
+    expect(methodTwoResult).toEqual(reversedValue);
   });
 
+  it('MethodThree', () => {
+    const methodThreeResult = StringReversalClass.methodThree();
+    expect(methodThreeResult).toEqual(reversedValue);
+  });
 });
